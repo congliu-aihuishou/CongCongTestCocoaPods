@@ -27,18 +27,8 @@ Pod::Spec.new do |s|
   s.author           = { 'cong.liu@aihuishou.com' => 'cong.liu@aihuishou.com' }
   s.source           = { :git => 'https://github.com/congliu-aihuishou/CongCongTestCocoaPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'CCCreatePodsLib/Classes/*.swift'
-  
-  # s.resource_bundles = {
-  #   'CCCreatePodsLib' => ['CCCreatePodsLib/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-    s.swift_version='4.0'
-    s.ios.exclude_files = ["CCCreatePodsLib/Classes/UIView+Size.swift"]
+  s.source_files = 'Source/UIView+Size.swift'
+  s.swift_version='4.0'
+  s.requires_arc = true
 end
