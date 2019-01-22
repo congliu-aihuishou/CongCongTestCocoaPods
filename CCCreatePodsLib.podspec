@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CCCreatePodsLib/Classes/**/*'
+  s.source_files = 'CCCreatePodsLib/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'CCCreatePodsLib' => ['CCCreatePodsLib/Assets/*.png']
