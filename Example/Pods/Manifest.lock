@@ -1,0 +1,16 @@
+PODS:
+  - CCCreatePodsLib (0.1.0)
+
+DEPENDENCIES:
+  - CCCreatePodsLib (from `../`)
+
+EXTERNAL SOURCES:
+  CCCreatePodsLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCCreatePodsLib: e2c92d8bb0fcf49f4080cb898bf0b44c03b7c792
+
+PODFILE CHECKSUM: 06c92df42cc5a8f88013f47c69f44d89a2ec7820
+
+COCOAPODS: 1.5.0

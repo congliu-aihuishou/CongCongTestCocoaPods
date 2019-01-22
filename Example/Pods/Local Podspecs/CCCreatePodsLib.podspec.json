@@ -1,0 +1,22 @@
+{
+  "name": "CCCreatePodsLib",
+  "version": "0.1.0",
+  "summary": "A short description of CCCreatePodsLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cong.liu@aihuishou.com/CCCreatePodsLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cong.liu@aihuishou.com": "cong.liu@aihuishou.com"
+  },
+  "source": {
+    "git": "https://github.com/cong.liu@aihuishou.com/CCCreatePodsLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCCreatePodsLib/Classes/**/*"
+}

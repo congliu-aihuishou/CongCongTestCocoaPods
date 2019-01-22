@@ -1,0 +1,6 @@
+framework module CCCreatePodsLib {
+  umbrella header "CCCreatePodsLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
