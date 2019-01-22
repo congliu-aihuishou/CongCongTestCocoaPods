@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CCCreatePodsLib_Tests' do
+  pod 'CCCreatePodsLib', :path => '../'
+  
+  
+end
