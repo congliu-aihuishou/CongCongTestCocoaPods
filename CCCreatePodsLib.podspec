@@ -36,8 +36,9 @@ Pod::Spec.new do |s|
   #   'CCCreatePodsLib' => ['CCCreatePodsLib/Assets/*.png']
   # }
 
-    s.public_header_files = 'CCCreatePodsLib/Classes/**/*'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.swift_version='4.0'
+    s.ios.exclude_files = ["CCCreatePodsLib/Classes/UIView+Size.swift"]
 end
