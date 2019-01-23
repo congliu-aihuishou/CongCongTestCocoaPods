@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/congliu-aihuishou/CongCongTestCocoaPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'Source', 'Source/*.{swift}'
   s.swift_version='4.2'
 end
